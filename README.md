@@ -1,6 +1,6 @@
 # Wifi Remote V2
 *Author: @vivekascoder*\
-**For anything you guys can contact me `vivekascoder@gmail.com`*\
+**For anything you guys can contact me `vivekascoder@gmail.com`**
 
 <img src="https://raw.githubusercontent.com/vivekascoder/Wifi-Remote-V2/master/Screenshot_20200712_225124.jpg" width="150" />
 
