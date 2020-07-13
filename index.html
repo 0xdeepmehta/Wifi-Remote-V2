@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wifi Remote V2.0</title>
+</head>
+<body>
+    <div class="Main-Container">
+        <div class="Dock">
+            <button id="dock-btn" command="play"><i class="fas fa-play"></i></button>
+            <button id="dock-btn" command="volume_down"><i class="fas fa-volume-down"></i></button>
+            <button id="dock-btn" command="volume_up"><i class="fas fa-volume-up"></i></button>
+            <button id="dock-btn" command="close_window"><i class="fas fa-window-close"></i></button>
+            <button id="dock-btn" command="open_terminal"><i class="fas fa-terminal"></i></button>
+            <button id="dock-btn" command="open_firefox"><i class="fab fa-firefox-browser"></i></button>
+        </div>
+        <div class="Dock Two">
+            <button command="press_tab" style="background-color: rgb(175, 158, 7); color: white" id="dock-btn"><b>T</b></button>
+            <button command="log_out" style="background-color: rgb(7, 175, 21); color: white" id="dock-btn"><i class="fas fa-sign-out-alt"></i></button>
+            <button command="shut_down" style="background-color: rgb(141, 5, 5); color:white" id="dock-btn"><i class="fas fa-power-off"></i></button>
+        </div>
+        <div class="Arrow-Dock">
+            <div class="wrapper">
+                <div class="Sub-Dock">
+                    <button command="arrow_up" id="dock-btn"><i class="fas fa-arrow-circle-up"></i></button>
+                </div>
+                <div class="Sub-Dock Left-Right">
+                    <button command="arrow_left" id="dock-btn"><i class="fas fa-arrow-circle-left"></i></button>
+                    <button command="arrow_right" id="dock-btn"><i class="fas fa-arrow-circle-right"></i></button>
+                </div>  
+                <div class="Sub-Dock">
+                    <button command="arrow_down" id="dock-btn"><i class="fas fa-arrow-circle-down"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="Dock Type-Writer">
+            <input type="text" id="text">
+            <button command="write" id="dock-btn"><i class="fas fa-keyboard"></i> Write</button>
+            <button command="press_enter" id="dock-btn">Enter</button>
+        </div>
+    </div>
+    <br>
+    <div class="Footer Dock">
+        <h4 style="color: white; text-align: center;"><i class="fab fa-instagram" style="padding: 0 10px;transform: translateY(15%);color: rgb(255, 0, 128); font-size: 1.5rem;"></i>@VIVEKASCODER, @IMDEEPMEHTA</h4>
+    </div>
+    <script src="./client.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
